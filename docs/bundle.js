@@ -128,10 +128,12 @@ if(false) {
 
 exports = module.exports = __webpack_require__(3)(false);
 // imports
-
+exports.push([module.i, "@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/icon?family=Material+Icons);", ""]);
 
 // module
-exports.push([module.i, "p {\n  color: red;\n}\n", ""]);
+exports.push([module.i, "body {\n  padding: 0;\n  margin: 0;\n  font-family: 'Roboto';\n  background-color: darkslategray;\n  background-image: linear-gradient(black, darkgrey)\n}\n\n.center-me-card {\n  position: absolute;\n  margin: auto;\n  padding: 0;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 60vw;\n  height: 40vh;\n  background-color: #000000;\n  color: #FFFFFF;\n}\n\nimg {\n  max-width: auto;\n  height: 40vh;\n  float: left;\n}\n\n.code {\n  font-family: 'Fira Code';\n}\n\n.right {\n  text-align: center;\n}\n\n.inline-title {\n  display: inline-block;\n  font-weight: normal;\n}\n\nul {\n  padding-left: 1vw;\n  list-style: none;\n}\n\nli {\n  padding-top: 2vh;\n}\n\na {\n  color: #FFFFFF;\n  text-decoration: none;\n}\n\n.disabled {\n  color: #515151;\n}\n", ""]);
 
 // exports
 

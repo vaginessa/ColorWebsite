@@ -1,3 +1,62 @@
-p {
-  color: red;
+@import url('https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+  background-color: darkslategray;
+  background-image: linear-gradient(black, darkgrey)
+}
+
+.center-me-card {
+  position: absolute;
+  margin: auto;
+  padding: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 60vw;
+  height: 40vh;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+img {
+  max-width: auto;
+  height: 40vh;
+  float: left;
+}
+
+.code {
+  font-family: 'Fira Code';
+}
+
+.right {
+  text-align: center;
+}
+
+.inline-title {
+  display: inline-block;
+  font-weight: normal;
+}
+
+ul {
+  padding-left: 1vw;
+  list-style: none;
+}
+
+li {
+  padding-top: 2vh;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.disabled {
+  color: #515151;
 }
