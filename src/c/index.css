@@ -1,62 +1,91 @@
 @import url('https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+:root {
+  --old-hope-blue: #4fb4d8;
+  --old-hope-green: #78bd65;
+  --old-hope-orange: #ef7c2a;
+  --old-hope-red: #eb3d54;
+  --old-hope-yellow: #e5cd52;
+}
+
+.blue { color: var(--old-hope-blue); }
+.green { color: var(--old-hope-green); }
+.orange { color: var(--old-hope-orange); }
+.red { color: var(--old-hope-red); }
+.yellow { color: var(--old-hope-yellow); }
+
+.disabled { opacity: 0.5; }
+
+strong { color: var(--old-hope-red); }
+
+h1 {
+  display: inline;
+}
 
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto';
-  background-color: darkslategray;
-  background-image: linear-gradient(black, darkgrey)
-}
-
-.center-me-card {
-  position: absolute;
-  margin: auto;
-  padding: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 60vw;
-  height: 40vh;
-  background-color: #000000;
-  color: #FFFFFF;
-}
-
-img {
-  max-width: auto;
-  height: 40vh;
-  float: left;
-}
-
-.code {
   font-family: 'Fira Code';
-}
-
-.right {
-  text-align: center;
-}
-
-.inline-title {
-  display: inline-block;
-  font-weight: normal;
-}
-
-ul {
-  padding-left: 1vw;
-  list-style: none;
+  background-color: #000000;
+  color: lightgray;
 }
 
 li {
-  padding-top: 2vh;
+  list-style-type: none;
+  font-size: 0.9em;
+  color: var(--old-hope-yellow);
+  padding-bottom: 1em;
 }
 
 a {
-  color: #FFFFFF;
+  color: var(--old-hope-yellow);
   text-decoration: none;
 }
 
-.disabled {
-  color: #515151;
+table {
+  padding: 1em 0 0 1em;
+}
+
+tr, td {
+  padding: 0.2em;
+}
+
+.maindiv {
+  margin: 5em;
+}
+
+.left {
+  width: 35em;
+  display: inline-block;
+}
+
+.right {
+  width: 30em;
+  text-align: right;
+  display: inline-block;
+}
+.right a {
+  color: var(--old-hope-blue);
+}
+
+#links {
+  top: 10em;
+  font-size: 1.5em;
+  position: absolute;
+  right: 5em;
+}
+
+footer {
+  color: darkgray;
+  position: absolute;
+  bottom: 0;
+  margin: 2.5em;
+  opacity: 0.5;
+}
+
+img {
+  position: absolute;
+  right: 5em;
+  height: 5em;
+  width: auto;
 }
