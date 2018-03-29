@@ -1,3 +1,11 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300|Titillium+Web');
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+/* defaults */
+/* prefix with --kat- and under :root so global */
+:root {
+  --kat-fonts-main: 'Titillium Web', helvetica, arial;
+  --kat-fonts-sub: 'Roboto', helvetica, arial;
+  --kat-material-grey: #212121;
+}
