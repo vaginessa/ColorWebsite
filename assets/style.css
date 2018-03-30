@@ -7,11 +7,9 @@
 :root {
   --kat-fonts-main: 'Titillium Web', helvetica, arial;
   --kat-material-grey: #212121;
-  --kat-material-purple-bg: #BA68C8;
   --kat-material-lightgrey: #757575;
 }
 
-.bg-purple { background-color: var(--kat-material-purple-bg); }
 .bg-grey { background-color: var(--kat-material-grey); }
 
 body {
