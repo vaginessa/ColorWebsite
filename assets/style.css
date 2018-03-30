@@ -33,6 +33,8 @@ nav ul li a {
   font-size: 1em;
 }
 
+i { font-style: normal; }
+
 .title { font-size: 10vh; }
 .subtitle {
   color: #BDBDBD;
