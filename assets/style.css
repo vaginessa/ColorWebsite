@@ -61,16 +61,8 @@ nav ul li a {
   text-decoration-style: none;
 }
 
-#projects {
-  background-color: var(--kat-material-lightgrey);
-  padding: 2vw;
-}
-
 .project {
-  padding: 2vw;
-  margin: 3vw;
-  margin-top: 2.5vw;
-  border-radius: 50px;
+  padding: 4vw;
 }
 .project .row .col {
   padding-top: 16.5vh;
