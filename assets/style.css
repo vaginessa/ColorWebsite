@@ -1,17 +1,17 @@
 /* imports */
-@import url('https://fonts.googleapis.com/css?family=Roboto:300|Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
 
 /* defaults */
 /* prefix with --kat- and under :root so global */
 :root {
   --kat-fonts-main: 'Titillium Web', helvetica, arial;
-  --kat-fonts-sub: 'Roboto', helvetica, arial;
   --kat-material-grey: #212121;
   --kat-material-purple-bg: #BA68C8;
+  --kat-material-lightgrey: #757575;
 }
 
-.material-purple { background-color: var(--kat-material-purple-bg); }
+.bg-purple { background-color: var(--kat-material-purple-bg); }
 .bg-grey { background-color: var(--kat-material-grey); }
 
 body {
@@ -33,15 +33,58 @@ nav ul li a {
   text-decoration: none;
 }
 
-h1 { font-size: 10vh; }
-h2 {
+.title { font-size: 10vh; }
+.subtitle {
   color: #BDBDBD;
   font-size: 2.5vh;
   font-style: italic;
 }
-h3 { font-size: 5vh; }
+.third-title { font-size: 4vh; }
 
 #header {
   padding: 2vw;
-  overflow-x: hidden;
+}
+
+#footer {
+  padding: 2vw;
+  text-align: center;
+}
+#footer p {
+  --opacity: .4;
+  -webkit-opacity: var(--opacity);
+  -moz-opacity: var(--opacity);
+  -ms-opacity: var(--opacity);
+  -o-opacity: var(--opacity);
+  opacity: var(--opacity);
+}
+#footer a {
+  text-decoration-style: none;
+}
+
+#projects {
+  background-color: var(--kat-material-lightgrey);
+  padding: 2vw;
+}
+
+.project {
+  padding: 2vw;
+  margin: 5vw;
+  margin-top: 2.5vw;
+  border-radius: 50px;
+}
+.project .row .col {
+  padding-top: 16.5vh;
+}
+.project-title {
+  font-size: 5vh;
+}
+.project-description {
+  font-size: 2vh;
+  display: inline-block;
+}
+.project-image {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
 }
