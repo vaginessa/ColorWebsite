@@ -53,12 +53,16 @@ i { font-style: normal; }
   text-align: center;
 }
 #footer p {
-  --opacity: .4;
+  --opacity: .8;
   -webkit-opacity: var(--opacity);
   -moz-opacity: var(--opacity);
   -ms-opacity: var(--opacity);
   -o-opacity: var(--opacity);
   opacity: var(--opacity);
+
+  letter-spacing: 1px;
+  font-size: 1.4vw;
+  font-family: arial, helvetica;
 }
 #footer a {
   text-decoration-style: none;
