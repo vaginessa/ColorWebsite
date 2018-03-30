@@ -8,20 +8,22 @@
   --kat-fonts-main: 'Titillium Web', helvetica, arial;
   --kat-fonts-sub: 'Roboto', helvetica, arial;
   --kat-material-grey: #212121;
+  --kat-material-purple-bg: #BA68C8;
 }
+
+.material-purple { background-color: var(--kat-material-purple-bg); }
 
 body {
   color: #FFF;
   margin: 0;
   padding: 0;
   font-family: var(--kat-fonts-main);
-  overflow-x: hidden;
 }
 
 nav ul { display: block; }
 nav ul li {
   display: inline-block;
-  padding: 1rem;
+  padding: 2vw;
   list-style-type: none;
   letter-spacing: 1px;
 }
@@ -44,3 +46,13 @@ h3 { font-size: 1.5rem; }
 }
 
 .bg-grey { background-color: var(--kat-material-grey); }
+
+.project h1 {
+  padding-top: 2vh;
+  color: var(--kat-material-grey);
+  font-size: 3vw;
+}
+.project img {
+  width: 30vw;
+  height: auto;
+}
