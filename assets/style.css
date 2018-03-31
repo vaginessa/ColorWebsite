@@ -81,7 +81,7 @@ i { font-style: normal; }
   text-align: center;
 }
 #footer p {
-  --opacity: .8;
+  --opacity: .4;
   -webkit-opacity: var(--opacity);
   -moz-opacity: var(--opacity);
   -ms-opacity: var(--opacity);
@@ -89,7 +89,7 @@ i { font-style: normal; }
   opacity: var(--opacity);
 
   letter-spacing: 1px;
-  font-size: 1.4vw;
+  font-size: 1vw;
   font-family: arial, helvetica;
 }
 #footer a {
