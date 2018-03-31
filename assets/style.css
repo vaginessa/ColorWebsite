@@ -10,8 +10,6 @@
   --kat-material-lightgrey: #757575;
 }
 
-.bg-grey { background-color: var(--kat-material-grey); }
-
 body {
   color: #FFF;
   background-color: var(--kat-material-grey);
@@ -43,31 +41,6 @@ i { font-style: normal; }
 }
 .third-title { font-size: 4vh; }
 
-#header {
-  padding: 1vw;
-  margin: 5vw;
-}
-
-#footer {
-  padding: 2vw;
-  text-align: center;
-}
-#footer p {
-  --opacity: .8;
-  -webkit-opacity: var(--opacity);
-  -moz-opacity: var(--opacity);
-  -ms-opacity: var(--opacity);
-  -o-opacity: var(--opacity);
-  opacity: var(--opacity);
-
-  letter-spacing: 1px;
-  font-size: 1.4vw;
-  font-family: arial, helvetica;
-}
-#footer a {
-  text-decoration-style: none;
-}
-
 .project {
   padding: 4vw;
 }
@@ -96,4 +69,29 @@ i { font-style: normal; }
   height: auto;
   padding: 0;
   margin: 0;
+}
+
+#header {
+  padding: 1vw;
+  margin: 5vw;
+}
+
+#footer {
+  padding: 2vw;
+  text-align: center;
+}
+#footer p {
+  --opacity: .8;
+  -webkit-opacity: var(--opacity);
+  -moz-opacity: var(--opacity);
+  -ms-opacity: var(--opacity);
+  -o-opacity: var(--opacity);
+  opacity: var(--opacity);
+
+  letter-spacing: 1px;
+  font-size: 1.4vw;
+  font-family: arial, helvetica;
+}
+#footer a {
+  text-decoration-style: none;
 }
