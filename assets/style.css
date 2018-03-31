@@ -45,7 +45,7 @@ i { font-style: normal; }
   padding: 4vw;
 }
 .project .row .col {
-  padding-top: 16.5vh;
+  margin: auto;
 }
 .project-title {
   font-size: 5vh;
