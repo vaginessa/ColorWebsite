@@ -33,6 +33,13 @@ nav ul li a {
 
 i { font-style: normal; }
 
+code {
+  color: inherit;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
 .title { font-size: 10vh; }
 .subtitle {
   color: #BDBDBD;
