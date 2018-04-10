@@ -18,6 +18,10 @@ body {
   font-family: var(--kat-fonts-main);
 }
 
+nav {
+  position: fixed;
+  top: 0;
+}
 nav ul { display: block; }
 nav ul li {
   display: inline-block;
