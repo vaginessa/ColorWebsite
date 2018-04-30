@@ -21,13 +21,23 @@ body {
 nav {
   position: fixed;
   top: 0;
+  width: 98vw;
+  background-color: var(--kat-material-grey);
+  z-index: 999;
+  opacity: .9;
+  margin: 1vw;
+  border-radius: 15px;
 }
-nav ul { display: block; }
+nav ul {
+  display: block;
+  margin: 0;
+}
 nav ul li {
   display: inline-block;
   padding: 1vw;
   list-style-type: none;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 nav ul li a {
   color: inherit;
@@ -83,7 +93,7 @@ code {
 }
 
 #header {
-  padding: 1vw;
+  padding-top: 2vw;
   margin: 5vw;
 }
 
